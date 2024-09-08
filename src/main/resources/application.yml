@@ -1,0 +1,12 @@
+spring:
+  application:
+    name: Spring_Cloud
+  cloud:
+    config:
+      server:
+        git:
+          uri: https://github.com/chhunly03/Spring_Clound_Config.git
+      clone-on-start: true
+
+server:
+  port: 8888
